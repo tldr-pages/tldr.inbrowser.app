@@ -15,8 +15,8 @@ dependencies:
     specifier: ^3.2.45
     version: 3.2.45
   vue-router:
-    specifier: ^4.1.6
-    version: 4.1.6(vue@3.2.45)
+    specifier: ^4.5.1
+    version: 4.5.1(vue@3.2.45)
 
 devDependencies:
   '@rushstack/eslint-patch':
@@ -81,7 +81,7 @@ devDependencies:
     version: 1.0.22(vue@3.2.45)
   '@vueuse/router':
     specifier: ^9.10.0
-    version: 9.10.0(vue-router@4.1.6)(vue@3.2.45)
+    version: 9.10.0(vue-router@4.5.1)(vue@3.2.45)
   eslint:
     specifier: ^8.22.0
     version: 8.31.0
@@ -2023,6 +2023,10 @@ packages:
 
   /@vue/devtools-api@6.4.5:
     resolution: {integrity: sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==}
+    dev: false
+
+  /@vue/devtools-api@6.6.4:
+    resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
 
   /@vue/eslint-config-prettier@7.0.0(eslint@8.31.0)(prettier@2.8.1):
     resolution: {integrity: sha512-/CTc6ML3Wta1tCe1gUeO0EYnVXfo3nJXsIhZ8WJr3sov+cGASr6yuiibJTL6lmIBm7GobopToOuB3B6AWyV0Iw==}
@@ -2143,14 +2147,14 @@ packages:
     resolution: {integrity: sha512-pgxsUJv/d7IjKpLeB6TthggEsaBwM3ffc5jPrr5TmxAm/fup0mGR5VTzrdA/PSx85tpb+CIvP92D+55qBNc8ag==}
     dev: true
 
-  /@vueuse/router@9.10.0(vue-router@4.1.6)(vue@3.2.45):
+  /@vueuse/router@9.10.0(vue-router@4.5.1)(vue@3.2.45):
     resolution: {integrity: sha512-5idTkKUxDlz/d5EenSbORBItSDnAgS43SFT84rvALsaLpBCGEyFp6XsNcoktaMDAHk2XRR4N7ztPOgm8+Yz1Kg==}
     peerDependencies:
       vue-router: '>=4.0.0-rc.1'
     dependencies:
       '@vueuse/shared': 9.10.0(vue@3.2.45)
       vue-demi: 0.13.11(vue@3.2.45)
-      vue-router: 4.1.6(vue@3.2.45)
+      vue-router: 4.5.1(vue@3.2.45)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -5721,12 +5725,12 @@ packages:
       vue: 3.2.45
     dev: true
 
-  /vue-router@4.1.6(vue@3.2.45):
-    resolution: {integrity: sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==}
+  /vue-router@4.5.1(vue@3.2.45):
+    resolution: {integrity: sha512-ogAF3P97NPm8fJsE4by9dwSYtDwXIY1nFY9T6DyQnGHd1E2Da94w9JIolpe42LJGIl0DwOHBi8TcRPlPGwbTtw==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
-      '@vue/devtools-api': 6.4.5
+      '@vue/devtools-api': 6.6.4
       vue: 3.2.45
 
   /vue-template-compiler@2.7.14:
