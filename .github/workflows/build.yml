@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v7
-    - uses: pnpm/setup@v6
+    - uses: pnpm/setup@v2
       name: Install pnpm
       with:
         runtime: node@20
