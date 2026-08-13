@@ -116,8 +116,8 @@ devDependencies:
     specifier: ~4.7.4
     version: 4.7.4
   user-agent-data-types:
-    specifier: ^0.3.0
-    version: 0.3.0
+    specifier: ^0.4.3
+    version: 0.4.3
   vite:
     specifier: ^4.0.0
     version: 4.5.0(@types/node@18.11.18)(sass@1.57.1)
@@ -5545,8 +5545,8 @@ packages:
       requires-port: 1.0.0
     dev: true
 
-  /user-agent-data-types@0.3.0:
-    resolution: {integrity: sha512-AI3vPwmafXd4r/mSbubOu6S1ngO4vdvJFAJdP0MUc9Y4SwXm/Pqpno0R/O4Zt26vZYzWorV+4BgVcntxhJlMPw==}
+  /user-agent-data-types@0.4.3:
+    resolution: {integrity: sha512-Dn3fjwVgeM363mx1sEgOpOp9NNqHBj6Gn68dFbV1WoTr3s05CijKdxfH6A3Q5uzXnYNB6vdAfs/1HWFpObc7EQ==}
     dev: true
 
   /util-deprecate@1.0.2:
