@@ -16,7 +16,6 @@ jobs:
       name: Install pnpm
       with:
         runtime: node@20
-        install: false
 
     - name: Get pnpm store directory
       shell: bash
