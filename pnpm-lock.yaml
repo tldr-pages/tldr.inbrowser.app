@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^0.12.0
     version: 0.12.0
   '@vicons/ionicons5':
-    specifier: ^0.12.0
-    version: 0.12.0
+    specifier: ^0.13.0
+    version: 0.13.0
   '@vicons/material':
     specifier: ^0.12.0
     version: 0.12.0
@@ -1925,8 +1925,8 @@ packages:
     resolution: {integrity: sha512-i+7YwlpCrqD6m9esbZLy1bpVQlh4CKugtS3OzgfNw6BLTQQK6HT7drktaJgcESj/BTr4avdNbAtMQXx56wSVMg==}
     dev: true
 
-  /@vicons/ionicons5@0.12.0:
-    resolution: {integrity: sha512-Iy1EUVRpX0WWxeu1VIReR1zsZLMc4fqpt223czR+Rpnrwu7pt46nbnC2ycO7ItI/uqDLJxnbcMC7FujKs9IfFA==}
+  /@vicons/ionicons5@0.13.0:
+    resolution: {integrity: sha512-zvZKBPjEXKN7AXNo2Na2uy+nvuv6SP4KAMQxpKL2vfHMj0fSvuw7JZcOPCjQC3e7ayssKnaoFVAhbYcW6v41qQ==}
     dev: true
 
   /@vicons/material@0.12.0:
