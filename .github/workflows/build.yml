@@ -12,16 +12,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v7
-    - name: Install Node.js
-      uses: actions/setup-node@v7
-      with:
-        node-version: 20
-
-    - uses: pnpm/action-setup@v6
+    - uses: pnpm/setup@v6
       name: Install pnpm
       with:
-        version: 8
-        run_install: false
+        runtime: node@20
+        install: false
 
     - name: Get pnpm store directory
       shell: bash
