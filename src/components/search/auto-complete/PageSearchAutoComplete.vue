@@ -77,11 +77,12 @@ onMounted(() => {
   nextTick(() => {
     searchInput.value?.focus();
 
-    // FIXME: this is a hack to disable autocorrect on mobiles
-    searchInput.value?.inputInstRef?.inputElRef?.setAttribute(
-      "autocorrect",
-      "off"
-    );
+    // FIXME: this is a hack to disable autocorrect on mobiles, reaching into
+    // naive-ui internals that are typed as `unknown` rather than exposed publicly.
+    const inputInstRef = searchInput.value?.inputInstRef as
+      | { inputElRef?: HTMLElement }
+      | undefined;
+    inputInstRef?.inputElRef?.setAttribute("autocorrect", "off");
   });
 });
 
