@@ -16,5 +16,7 @@ const props = defineProps<{
   markdown: string;
 }>();
 
-const html = computed(() => handleHighlight(marked.parse(props.markdown)));
+const html = computed(() =>
+  handleHighlight(marked.parse(props.markdown, { async: false }))
+);
 </script>
