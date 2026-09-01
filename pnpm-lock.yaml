@@ -40,8 +40,8 @@ importers:
         specifier: ^0.12.0
         version: 0.12.0
       '@vicons/carbon':
-        specifier: ^0.12.0
-        version: 0.12.0
+        specifier: ^0.13.0
+        version: 0.13.0
       '@vicons/fa':
         specifier: ^0.12.0
         version: 0.12.0
@@ -1285,8 +1285,8 @@ packages:
   '@vicons/antd@0.12.0':
     resolution: {integrity: sha512-C0p6aO1EmGG1QHrqgUWQS1No20934OdWSRQshM5NIDK5H1On6tC26U0hT6Rmp40KfUsvhvX5YW8BoWJdNFifPg==}
 
-  '@vicons/carbon@0.12.0':
-    resolution: {integrity: sha512-kCOgr/ZOhZzoiFLJ8pwxMa2TMxrkCUOA22qExPabus35F4+USqzcsxaPoYtqRd9ROOYiHrSqwapak/ywF0D9bg==}
+  '@vicons/carbon@0.13.0':
+    resolution: {integrity: sha512-Z/jExyyS4gsXJc66oTqV/j98nsaiX2JlQ0IUwu9Ms3rztf8VOHEQRuX8Jey1/zbxJpFY/tU+bWvKPRFYGIvCWQ==}
 
   '@vicons/fa@0.12.0':
     resolution: {integrity: sha512-g2PIeJLsTHUjt6bK63LxqC0uYQB7iu+xViJOxvp1s8b9/akpXVPVWjDTTsP980/0KYyMMe4U7F/aUo7wY+MsXA==}
@@ -1321,11 +1321,6 @@ packages:
 
   '@volar/typescript@1.11.1':
     resolution: {integrity: sha512-iU+t2mas/4lYierSnoFOeRFQUhAEMgsFuQxoxvwn5EdQopw43j+J27a4lt9LMInx1gLJBC6qL14WYGlgymaSMQ==}
-    peerDependencies:
-      typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
 
   '@vue/compiler-core@3.5.41':
     resolution: {integrity: sha512-q0Xtv/F9w2YO/7htQhtiL+Ev2WCJbe5N2hc+XfgyKkEKqWpSxknmT8QOuGdEKNdjPq0c3F7rNpFkTo3Kfrm7pg==}
@@ -4624,7 +4619,7 @@ snapshots:
 
   '@vicons/antd@0.12.0': {}
 
-  '@vicons/carbon@0.12.0': {}
+  '@vicons/carbon@0.13.0': {}
 
   '@vicons/fa@0.12.0': {}
 
@@ -4651,12 +4646,10 @@ snapshots:
     dependencies:
       muggle-string: 0.3.1
 
-  '@volar/typescript@1.11.1(typescript@4.7.4)':
+  '@volar/typescript@1.11.1':
     dependencies:
       '@volar/language-core': 1.11.1
       path-browserify: 1.0.1
-    optionalDependencies:
-      typescript: 4.7.4
 
   '@vue/compiler-core@3.5.41':
     dependencies:
@@ -6845,7 +6838,7 @@ snapshots:
 
   vue-tsc@1.8.27(typescript@4.7.4):
     dependencies:
-      '@volar/typescript': 1.11.1(typescript@4.7.4)
+      '@volar/typescript': 1.11.1
       '@vue/language-core': 1.8.27(typescript@4.7.4)
       semver: 7.8.5
       typescript: 4.7.4
